@@ -2,10 +2,50 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="refresh" content="0; url=/certificate/">
-    <title>Redirecting...</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nexariza Campaign Pages</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+            background-color: #f4f6f9;
+        }
+        h1 {
+            color: #333;
+        }
+        .container {
+            margin-top: 30px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .card {
+            background: white;
+            padding: 20px 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            text-decoration: none;
+            color: #2563eb;
+            font-weight: bold;
+            font-size: 18px;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+        }
+    </style>
 </head>
 <body>
-    <p>If you are not redirected, <a href="/certificate/">click here</a>.</p>
+    <h1>Nexariza Campaign Pages</h1>
+    <p>Please select a page to view:</p>
+    
+    <div class="container">
+        <a class="card" href="./certificate/">Certificate Page</a>
+        <a class="card" href="./course/">Course Page</a>
+        <a class="card" href="./internship/">Internship Page</a>
+    </div>
 </body>
 </html>
